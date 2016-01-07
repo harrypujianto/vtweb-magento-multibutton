@@ -16,11 +16,11 @@ Payment Method Feature:
 #### Minimum Requirements
 
 * This plugin is tested with Magento version 1.9
-* PHP version 5.3 or greater
+* PHP version 5.4 or greater
 
 #### Manual Instalation
 
-1. Extract the VTWebMagento-master.zip 
+1. Download and extract the zip 
 
 2. Locate the root Magento directory of your shop via FTP connection
 
@@ -32,8 +32,7 @@ Payment Method Feature:
 
 #### Get help
 
-* [Veritrans sandbox login](https://my.sandbox.veritrans.co.id/)
-* [Veritrans sandbox registration](https://my.sandbox.veritrans.co.id/register)
+* [Veritrans login](https://my.veritrans.co.id/)
 * [Veritrans registration](https://my.veritrans.co.id/register)
 * [Veritrans documentation](http://docs.veritrans.co.id)
 * [Veritrans magrnto Documentation](http://docs.veritrans.co.id/vtweb/integration_magento.html)
