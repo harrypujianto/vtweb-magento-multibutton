@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <config>
   <modules>
     <Veritrans_VtWeb>
@@ -33,18 +33,18 @@
   </global>
   <default>
     <payment>
-        <vtweb>
-          <model>vtweb/abstract</model>
-          <active>0</active>
-          <order_status>pending</order_status>
-          <title>Credit Card</title>
-          <payment_action>sale</payment_action>
-          <allowspecific>0</allowspecific>
-          <sort_order>1</sort_order>
-          <conversion_rate>20000</conversion_rate>
-          <enable_3d_secure>true</enable_3d_secure>
-          <environment>sandbox</environment>
-        </vtweb>
+      <vtweb>
+        <model>vtweb/abstract</model>
+        <active>0</active>
+        <order_status>pending</order_status>
+        <title>Credit Card</title>
+        <payment_action>sale</payment_action>
+        <allowspecific>0</allowspecific>
+        <sort_order>1</sort_order>
+        <conversion_rate>20000</conversion_rate>
+        <enable_3d_secure>true</enable_3d_secure>
+        <environment>sandbox</environment>
+      </vtweb>
       <mandiri_clickpay>
         <model>vtweb/mandiriclickpay</model>
         <group>vtweb_mandiriclickpay</group>

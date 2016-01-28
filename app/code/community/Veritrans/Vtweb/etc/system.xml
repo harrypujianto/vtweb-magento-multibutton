@@ -1,14 +1,14 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <config>
   <sections>
     <veritrans translate="label" module="vtweb">
       <label>Veritrans</label>
-         <tab>sales</tab>
-         <frontend_type>text</frontend_type>
-         <sort_order>999</sort_order>
-         <show_in_default>1</show_in_default>
-         <show_in_website>1</show_in_website>
-         <show_in_store>1</show_in_store>
+      <tab>sales</tab>
+      <frontend_type>text</frontend_type>
+      <sort_order>999</sort_order>
+      <show_in_default>1</show_in_default>
+      <show_in_website>1</show_in_website>
+      <show_in_store>1</show_in_store>
       <groups>
         <vtweb translate="label comment" module="vtweb">
           <label>Veritrans Setting</label>
@@ -27,9 +27,7 @@
               <show_in_default>1</show_in_default>
               <show_in_website>1</show_in_website>
               <show_in_store>0</show_in_store>
-              <comment>
-                Set value to yes to enable credit card
-              </comment>
+              <comment>Set value to yes to enable credit card</comment>
             </active>
             <title translate="label">
               <label>Title</label>
@@ -535,5 +533,5 @@
         </vtweb_indosatdompetku>
       </groups>
     </veritrans>
-    </sections>
-  </config>
+  </sections>
+</config>
